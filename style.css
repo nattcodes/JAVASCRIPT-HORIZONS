@@ -1,0 +1,24 @@
+@import url(https://db.onlinewebfonts.com/c/cec88e5a4cf367c4620cd23c5a184439?family=PolySans+Median);
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: PolySans Median;
+}
+
+button {
+    cursor: pointer;
+    font-family: PolySans Median;
+    background-color: white;
+    border: .7px solid black;
+    border-bottom: 2px solid black;
+    border-radius: .4rem;
+    transition: .1s all ease-in-out;
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
