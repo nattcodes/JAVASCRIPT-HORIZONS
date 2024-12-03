@@ -471,18 +471,6 @@ Primitive data types are the most basic building blocks of data in JavaScript. T
 
 ---
 
-7. **Symbol**  
-   Represents a unique and immutable identifier, often used as object property keys to avoid name clashes.
-
-   **Examples:**
-
-   ```javascript
-   let symbol1 = Symbol("id");
-   let symbol2 = Symbol("id");
-   console.log(symbol1 === symbol2); // false (each Symbol is unique)
-   console.log(typeof symbol1); // "symbol"
-   ```
-
 ---
 
 ### **Key Characteristics of Primitive Data Types**

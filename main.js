@@ -1,17 +1,34 @@
-//declared variable variable name = value;
-let digit1 = 2;
-let digit2 = 5;
-
-console.log(digit1 / digit2)
-
-let userA = "danny"
-let userB = "Jupiter"
-
-console.log(`${userA}`);
-
-//console.log(`text + ${}`)
-//console.log({} && {})
+let name = "Kome"
+let digit = 1;
 
 
+let a = 10
+let b = 5
 
-//read on Data types
+let value = !true;
+
+console.log(value)
+
+
+let inputValue = a + b
+
+console.log(`${name}, are you ${inputValue} today`)
+
+
+let letter = "home"
+let num = 2
+let isValue = true
+let Name;
+let empty = Symbol('id');
+let emptyTwo = Symbol('id')
+
+
+let z = 20;
+let ok = Boolean(z);
+
+console.log(typeof ok)
+
+
+
+
+
