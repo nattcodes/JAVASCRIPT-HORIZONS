@@ -322,7 +322,7 @@ localScopeExample();
 
 ### Operators:
 
-Operators are symbols or keywords that perform operations on operands.
+Operators are symbols or keywords that perform operations on values.
 
 - **Arithmetic Operators:** Perform mathematical calculations (`+`, `-`, `*`, `/`, `%`, `**`).
 - **Assignment Operators:** Assign values (`=`, `+=`, `-=`).
@@ -494,53 +494,19 @@ console.log(x + y); // 12
 console.log(x ** y); // 100 (Exponentiation)
 ```
 
-### 2. Assignment Operators:
-
-```javascript
-let a = 5;
-a += 2; // a = a + 2
-console.log(a); // 7
-```
-
-### 3. Logical Operators:
-
-Used to combine or invert conditions.
-
-```javascript
-let isTrue = true && false; // false
-```
-
-### 4. Equality Operators:
+### 1. Equality Operators:
 
 ```javascript
 console.log(5 == "5"); // true (loose equality)
 console.log(5 === "5"); // false (strict equality)
 ```
 
-### 5. Relational Operators:
-
-```javascript
-console.log(10 > 5); // true
-```
-
-### 6. Increment/Decrement:
+### 2. Increment:
 
 ```javascript
 let count = 0;
 console.log(++count); // 1 (prefix)
 console.log(count++); // 1 (postfix)
-```
-
-### 7. Operator Precedence:
-
-```javascript
-console.log(3 + 5 * 2); // 13 (* has higher precedence than +)
-```
-
-### 8. Operator Associativity:
-
-```javascript
-console.log(10 - 5 - 2); // 3 (evaluates left-to-right)
 ```
 
 ---
