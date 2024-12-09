@@ -52,7 +52,7 @@
 
 ---
 
-### 4 **Operators in Detail**
+### 3 **Operators in Detail**
 
 1. **Arithmetic Operators**
 
@@ -103,7 +103,7 @@
 
 ---
 
-### 5 **Control Flow Statements**
+### 4 **Control Flow Statements**
 
 - **If-Else Statements**
 - **Switch Statements**
@@ -111,7 +111,7 @@
 
 ---
 
-### 6 **Loops**
+### 5 **Loops**
 
 - **For Loop**
 - **While Loop**
@@ -122,7 +122,7 @@
 
 ---
 
-### 7 **Functions**
+### 6 **Functions**
 
 - **Function Declaration**
 - **Arrow Functions**
@@ -131,7 +131,7 @@
 
 ---
 
-### 8 **Objects and Prototypes**
+### 7 **Objects and Prototypes**
 
 - **Objects (Key-Value Pairs)**
 - **Methods**
@@ -142,7 +142,7 @@
 
 ---
 
-### 9 **DOM (Document Object Model)**
+### 8 **DOM (Document Object Model/)**
 
 1. **Core Concepts**
    - Text Node
@@ -550,6 +550,57 @@ switch (day) {
 }
 ```
 
+# What are if-else and switch Statements?
+
+Both if-else and switch statements are conditional constructs used to control the flow of a program based on certain conditions.
+
+# if-else Statement
+
+- Executes different code blocks based on a series of conditions.
+- Allows for complex, flexible conditions using logical operators (&&, ||, etc.).
+
+```javascript
+if (condition1) {
+  // Code block 1
+} else if (condition2) {
+  // Code block 2
+} else {
+  // Code block 3
+}
+```
+
+# switch Statement
+
+- Evaluates a single expression and matches it against multiple possible values (case labels).
+- Useful for situations where the same variable is compared against multiple values.
+
+```javascript
+switch (expression) {
+  case value1:
+    // Code block 1
+    break;
+  case value2:
+    // Code block 2
+    break;
+  default:
+  // Default code block
+}
+```
+
+## Key Differences
+
+if-else
+
+- Supports complex conditions (e.g., a > b, x && y).
+- Can become difficult to read for multiple conditions.
+- Can compare multiple unrelated variables and complex conditions.
+
+switch statement
+
+- Checks equality with specific values (e.g., x === value).
+- More concise for multiple comparisons of the same variable.
+- Limited to one variable or expression to match.
+
 ### **Ternary Operator**
 
 A concise way to write conditional expressions.
@@ -956,3 +1007,7 @@ Div clicked!
 ## **Summary of the DOM**
 
 The DOM enables dynamic, interactive web applications by providing methods to query, traverse, and manipulate the document structure. Mastering the DOM unlocks the full potential of JavaScript in web development. Use the methods and concepts outlined here to build user-driven, responsive web applications.
+
+```
+
+```
