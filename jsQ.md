@@ -131,7 +131,7 @@ Here are tasks you can assign for each outline in the context of learning and pr
 #### Key, Value, Method
 
 - **Task: Object Basics**
-  Create an object with keys, values, and a method that prints one of the values.
+ 
 
 #### Constructor Functions
 
